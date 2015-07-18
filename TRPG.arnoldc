@@ -1,0 +1,133 @@
+IT'S SHOWTIME
+HEY CHRISTMAS TREE gResult
+  YOU SET US UP 0
+HEY CHRISTMAS TREE gMoveForward
+  YOU SET US UP @I LIED
+HEY CHRISTMAS TREE gMoveBack
+  YOU SET US UP @I LIED
+HEY CHRISTMAS TREE gMoveLeft
+  YOU SET US UP @I LIED
+HEY CHRISTMAS TREE gMoveRight
+  YOU SET US UP @I LIED
+DO IT NOW start
+YOU HAVE BEEN TERMINATED
+
+
+LISTEN TO ME VERY CAREFULLY start
+  TALK TO THE HAND "You've been driving for a while now..."
+  DO IT NOW delay
+  TALK TO THE HAND "The road is long and empty ahead of you. And your car..."
+  DO IT NOW delay
+  TALK TO THE HAND "Your car hasn't been sounding very healthy. You would've stopped to check it out, but... it's probably nothing anyway."
+  DO IT NOW delay
+  TALK TO THE HAND "To make matters worse, it's on the verge of running out of gas and your smart phone died a couple of minutes ago from using the navigation app... That's what you get for forgetting your car charger."
+  DO IT NOW delay
+  TALK TO THE HAND "*sput* *sput* *sputter* You start to pull the car over to the shoulder to avoid blocking the road... which would only matter if there was anyone around."
+  DO IT NOW delay
+  TALK TO THE HAND "You try coasting as far as you can, but the car finally crawls to a stop. Luckily, there's a small town up ahead. Looks like you'll have to go there and ask for help."
+  DO IT NOW delay
+  TALK TO THE HAND "Hope was high for some help, but arriving at the edge of town reveals that no one is outside. The houses look well kept and the streets are clean... what's going on?"
+  GET YOUR ASS TO MARS gResult
+    DO IT NOW printOptions @NO PROBLEMO @NO PROBLEMO @NO PROBLEMO @NO PROBLEMO
+HASTA LA VISTA, BABY
+
+LISTEN TO ME VERY CAREFULLY parseSelection
+  I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE selection
+GIVE THESE PEOPLE AIR
+  HEY CHRISTMAS TREE tmp
+    YOU SET US UP 0
+  GET TO THE CHOPPER tmp
+    HERE IS MY INVITATION selection
+    LET OFF SOME STEAM BENNET 4
+  ENOUGH TALK
+  BECAUSE I'M GOING TO SAY PLEASE tmp
+    GET TO THE CHOPPER tmp
+      HERE IS MY INVITATION selection
+      LET OFF SOME STEAM BENNET 2
+    ENOUGH TALK
+    BECAUSE I'M GOING TO SAY PLEASE tmp
+    BULLSHIT
+      GET TO THE CHOPPER tmp
+        HERE IS MY INVITATION selection
+        LET OFF SOME STEAM BENNET 1
+      ENOUGH TALK
+    YOU HAVE NO RESPECT FOR LOGIC
+  BULLSHIT
+  YOU HAVE NO RESPECT FOR LOGIC
+HASTA LA VISTA, BABY
+
+LISTEN TO ME VERY CAREFULLY delay
+  TALK TO THE HAND "Enter any integer to continue..."
+  HEY CHRISTMAS TREE tmp
+    YOU SET US UP 0
+  GET YOUR ASS TO MARS tmp
+  DO IT NOW
+  I WANT TO ASK YOU A BUNCH OF QUESTIONS AND I WANT TO HAVE THEM ANSWERED IMMEDIATELY
+HASTA LA VISTA, BABY
+
+
+LISTEN TO ME VERY CAREFULLY printOptions
+  I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE forwardBlock
+  I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE leftBlock
+  I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE rightBlock
+  I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE backBlock
+GIVE THESE PEOPLE AIR
+  TALK TO THE HAND " 1. Look forward | 2. Look back    "
+  TALK TO THE HAND " 3. Look left    | 4. Look right   "
+  HEY CHRISTMAS TREE result
+    YOU SET US UP forwardBlock
+  GET TO THE CHOPPER result
+    HERE IS MY INVITATION forwardBlock
+    KNOCK KNOCK backBlock
+  ENOUGH TALK
+  BECAUSE I'M GOING TO SAY PLEASE result
+    TALK TO THE HAND " 5. Move forward | 6. Move back   "
+  BULLSHIT
+    BECAUSE I'M GOING TO SAY PLEASE forwardBlock
+      TALK TO THE HAND " 5. Move forward |    ------------"
+    BULLSHIT
+      BECAUSE I'M GOING TO SAY PLEASE backBlock
+        TALK TO THE HAND "    ------------ | 6. Move back   "
+      BULLSHIT
+        TALK TO THE HAND "    ------------ |    ------------"
+      YOU HAVE NO RESPECT FOR LOGIC
+    YOU HAVE NO RESPECT FOR LOGIC
+  YOU HAVE NO RESPECT FOR LOGIC
+  GET TO THE CHOPPER result
+    HERE IS MY INVITATION leftBlock
+    KNOCK KNOCK rightBlock
+  ENOUGH TALK
+  BECAUSE I'M GOING TO SAY PLEASE result
+    TALK TO THE HAND " 7. Move left    | 8. Move right  "
+  BULLSHIT
+    BECAUSE I'M GOING TO SAY PLEASE leftBlock
+      TALK TO THE HAND " 7. Move left    |    ------------"
+    BULLSHIT
+      BECAUSE I'M GOING TO SAY PLEASE rightBlock
+        TALK TO THE HAND "    ------------ | 8. Move right  "
+      BULLSHIT
+        TALK TO THE HAND "    ------------ |    ------------"
+      YOU HAVE NO RESPECT FOR LOGIC
+    YOU HAVE NO RESPECT FOR LOGIC
+  YOU HAVE NO RESPECT FOR LOGIC
+  HEY CHRISTMAS TREE repeat
+    YOU SET US UP @NO PROBLEMO
+  STICK AROUND repeat
+    TALK TO THE HAND "What would you like to do?"
+    GET YOUR ASS TO MARS result
+    DO IT NOW
+    I WANT TO ASK YOU A BUNCH OF QUESTIONS AND I WANT TO HAVE THEM ANSWERED IMMEDIATELY
+    GET TO THE CHOPPER repeat
+      HERE IS MY INVITATION result
+      LET OFF SOME STEAM BENNET 8
+    ENOUGH TALK
+    BECAUSE I'M GOING TO SAY PLEASE repeat
+    BULLSHIT
+      GET TO THE CHOPPER repeat
+        HERE IS MY INVITATION 1
+        LET OFF SOME STEAM BENNET result
+      ENOUGH TALK
+    YOU HAVE NO RESPECT FOR LOGIC
+  CHILL
+  I'LL BE BACK result
+HASTA LA VISTA, BABY
