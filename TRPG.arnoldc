@@ -1,4 +1,5 @@
 IT'S SHOWTIME
+DO IT NOW intro
 DO IT NOW A1
 YOU HAVE BEEN TERMINATED
 
@@ -28,46 +29,46 @@ HASTA LA VISTA, BABY
 
 
 LISTEN TO ME VERY CAREFULLY printOptions
-  I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE forwardClear
-  I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE backClear
-  I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE leftClear
-  I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE rightClear
+  I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE northClear
+  I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE southClear
+  I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE westClear
+  I NEED YOUR CLOTHES YOUR BOOTS AND YOUR MOTORCYCLE eastClear
 GIVE THESE PEOPLE AIR
-  TALK TO THE HAND " 1. Look forward | 2. Look back    "
-  TALK TO THE HAND " 3. Look left    | 4. Look right   "
+  TALK TO THE HAND " 1. Look north | 2. Look south"
+  TALK TO THE HAND " 3. Look west  | 4. Look east "
   HEY CHRISTMAS TREE result
-    YOU SET US UP forwardClear
+    YOU SET US UP northClear
   GET TO THE CHOPPER result
-    HERE IS MY INVITATION forwardClear
-    KNOCK KNOCK backClear
+    HERE IS MY INVITATION northClear
+    KNOCK KNOCK southClear
   ENOUGH TALK
   BECAUSE I'M GOING TO SAY PLEASE result
-    TALK TO THE HAND " 5. Move forward | 6. Move back   "
+    TALK TO THE HAND " 5. Move north | 6. Move south   "
   BULLSHIT
-    BECAUSE I'M GOING TO SAY PLEASE forwardClear
-      TALK TO THE HAND " 5. Move forward |    ------------"
+    BECAUSE I'M GOING TO SAY PLEASE northClear
+      TALK TO THE HAND " 5. Move north | -------------"
     BULLSHIT
-      BECAUSE I'M GOING TO SAY PLEASE backClear
-        TALK TO THE HAND "    ------------ | 6. Move back   "
+      BECAUSE I'M GOING TO SAY PLEASE southClear
+        TALK TO THE HAND " ------------- | 6. Move south"
       BULLSHIT
-        TALK TO THE HAND "    ------------ |    ------------"
+        TALK TO THE HAND " ------------- | -------------"
       YOU HAVE NO RESPECT FOR LOGIC
     YOU HAVE NO RESPECT FOR LOGIC
   YOU HAVE NO RESPECT FOR LOGIC
   GET TO THE CHOPPER result
-    HERE IS MY INVITATION leftClear
-    KNOCK KNOCK rightClear
+    HERE IS MY INVITATION westClear
+    KNOCK KNOCK eastClear
   ENOUGH TALK
   BECAUSE I'M GOING TO SAY PLEASE result
-    TALK TO THE HAND " 7. Move left    | 8. Move right  "
+    TALK TO THE HAND " 7. Move west  | 8. Move east  "
   BULLSHIT
-    BECAUSE I'M GOING TO SAY PLEASE leftClear
-      TALK TO THE HAND " 7. Move left    |    ------------"
+    BECAUSE I'M GOING TO SAY PLEASE westClear
+      TALK TO THE HAND " 7. Move west  | -------------"
     BULLSHIT
-      BECAUSE I'M GOING TO SAY PLEASE rightClear
-        TALK TO THE HAND "    ------------ | 8. Move right  "
+      BECAUSE I'M GOING TO SAY PLEASE eastClear
+        TALK TO THE HAND " ------------- | 8. Move east  "
       BULLSHIT
-        TALK TO THE HAND "    ------------ |    ------------"
+        TALK TO THE HAND " ------------- | -------------"
       YOU HAVE NO RESPECT FOR LOGIC
     YOU HAVE NO RESPECT FOR LOGIC
   YOU HAVE NO RESPECT FOR LOGIC
@@ -84,7 +85,6 @@ GIVE THESE PEOPLE AIR
     ENOUGH TALK
     BECAUSE I'M GOING TO SAY PLEASE repeat
     BULLSHIT
-      TALK TO THE HAND "Less than 9"
       GET TO THE CHOPPER repeat
         HERE IS MY INVITATION result
         LET OFF SOME STEAM BENNET 0
@@ -106,12 +106,12 @@ GIVE THESE PEOPLE AIR
             ENOUGH TALK
             BECAUSE I'M GOING TO SAY PLEASE repeat
               GET TO THE CHOPPER repeat
-                HERE IS MY INVITATION rightClear
+                HERE IS MY INVITATION eastClear
                 YOU ARE NOT YOU YOU ARE ME @I LIED
               ENOUGH TALK
             BULLSHIT
               GET TO THE CHOPPER repeat
-                HERE IS MY INVITATION leftClear
+                HERE IS MY INVITATION westClear
                 YOU ARE NOT YOU YOU ARE ME @I LIED
               ENOUGH TALK
             YOU HAVE NO RESPECT FOR LOGIC
@@ -122,12 +122,12 @@ GIVE THESE PEOPLE AIR
             ENOUGH TALK
             BECAUSE I'M GOING TO SAY PLEASE repeat
               GET TO THE CHOPPER repeat
-                HERE IS MY INVITATION backClear
+                HERE IS MY INVITATION southClear
                 YOU ARE NOT YOU YOU ARE ME @I LIED
               ENOUGH TALK
             BULLSHIT
               GET TO THE CHOPPER repeat
-                HERE IS MY INVITATION forwardClear
+                HERE IS MY INVITATION northClear
                 YOU ARE NOT YOU YOU ARE ME @I LIED
               ENOUGH TALK
             YOU HAVE NO RESPECT FOR LOGIC
@@ -143,6 +143,38 @@ GIVE THESE PEOPLE AIR
   I'LL BE BACK result
 HASTA LA VISTA, BABY
 
+
+
+LISTEN TO ME VERY CAREFULLY intro
+  DO IT NOW cls
+  TALK TO THE HAND "You've been driving for a while now..."
+  DO IT NOW delay
+  TALK TO THE HAND "The road is long and empty ahead of you. And your car..."
+  DO IT NOW delay
+  TALK TO THE HAND "Your car hasn't been sounding very healthy. You"
+  TALK TO THE HAND "would've stopped to check it out, but... it's probably"
+  TALK TO THE HAND "nothing anyway."
+  DO IT NOW delay
+  TALK TO THE HAND "To make matters worse, it's on the verge of running out"
+  TALK TO THE HAND "of gas and your smart phone died a couple of minutes"
+  TALK TO THE HAND "ago from using the navigation app... That's what you"
+  TALK TO THE HAND "get for forgetting your car charger."
+  DO IT NOW delay
+  TALK TO THE HAND "*sput* *sput* *sputter*"
+  TALK TO THE HAND "You start to pull the car over to the shoulder to avoid"
+  TALK TO THE HAND "blocking the road... which would only matter if there"
+  TALK TO THE HAND "was anyone around."
+  DO IT NOW delay
+  TALK TO THE HAND "You try coasting as far as you can, but the car finally"
+  TALK TO THE HAND "crawls to a stop. Luckily, there's a small town up"
+  TALK TO THE HAND "ahead. Looks like you'll have to go there and ask for"
+  TALK TO THE HAND "help."
+  DO IT NOW delay
+  TALK TO THE HAND "Hope was high for some help, but arriving at the edge"
+  TALK TO THE HAND "of town reveals that no one is outside. The houses look"
+  TALK TO THE HAND "well kept and the streets are clean... what's going on?"
+  DO IT NOW delay
+HASTA LA VISTA, BABY
 
 
 LISTEN TO ME VERY CAREFULLY A1
@@ -182,7 +214,7 @@ LISTEN TO ME VERY CAREFULLY A1
         BECAUSE I'M GOING TO SAY PLEASE tmp
           DO IT NOW cls
           TALK TO THE HAND "Your car is off in the distance. No point in heading"
-          TALK TO THE HAND "back that way."
+          TALK TO THE HAND "south that way."
         BULLSHIT
           DO IT NOW cls
           TALK TO THE HAND "Just more road, and you don't really want to walk"
@@ -207,45 +239,20 @@ HASTA LA VISTA, BABY
 
 LISTEN TO ME VERY CAREFULLY printA1
   DO IT NOW cls
-  TALK TO THE HAND "You've been driving for a while now..."
-  DO IT NOW delay
-  TALK TO THE HAND "The road is long and empty ahead of you. And your car..."
-  DO IT NOW delay
-  TALK TO THE HAND "Your car hasn't been sounding very healthy. You"
-  TALK TO THE HAND "would've stopped to check it out, but... it's probably"
-  TALK TO THE HAND "nothing anyway."
-  DO IT NOW delay
-  TALK TO THE HAND "To make matters worse, it's on the verge of running out"
-  TALK TO THE HAND "of gas and your smart phone died a couple of minutes"
-  TALK TO THE HAND "ago from using the navigation app... That's what you"
-  TALK TO THE HAND "get for forgetting your car charger."
-  DO IT NOW delay
-  TALK TO THE HAND "*sput* *sput* *sputter*"
-  TALK TO THE HAND "You start to pull the car over to the shoulder to avoid"
-  TALK TO THE HAND "blocking the road... which would only matter if there"
-  TALK TO THE HAND "was anyone around."
-  DO IT NOW delay
-  TALK TO THE HAND "You try coasting as far as you can, but the car finally"
-  TALK TO THE HAND "crawls to a stop. Luckily, there's a small town up"
-  TALK TO THE HAND "ahead. Looks like you'll have to go there and ask for"
-  TALK TO THE HAND "help."
-  DO IT NOW delay
-  TALK TO THE HAND "Hope was high for some help, but arriving at the edge"
-  TALK TO THE HAND "of town reveals that no one is outside. The houses look"
-  TALK TO THE HAND "well kept and the streets are clean... what's going on?"
+  TALK TO THE HAND "You're standing at the entrance to the town."
 HASTA LA VISTA, BABY
 
 
 
-LISTEN TO ME VERY CAREFULLY B1
-  DO IT NOW printB1
+LISTEN TO ME VERY CAREFULLY B0
+  DO IT NOW printB0
   HEY CHRISTMAS TREE tmp
     YOU SET US UP 0
   HEY CHRISTMAS TREE selection
-    YOU SET US UP 0
-  GET YOUR ASS TO MARS selection
-    DO IT NOW printOptions @NO PROBLEMO @I LIED @I LIED @NO PROBLEMO
+    YOU SET US UP @NO PROBLEMO
   STICK AROUND selection
+    GET YOUR ASS TO MARS selection
+      DO IT NOW printOptions @I LIED @I LIED @NO PROBLEMO @I LIED
     GET TO THE CHOPPER tmp
       HERE IS MY INVITATION selection
       LET OFF SOME STEAM BENNET 4
@@ -261,9 +268,88 @@ LISTEN TO ME VERY CAREFULLY B1
           LET OFF SOME STEAM BENNET 7
         ENOUGH TALK
         BECAUSE I'M GOING TO SAY PLEASE tmp
-          TALK TO THE HAND "Move right"
         BULLSHIT
-          TALK TO THE HAND "Move left"
+          DO IT NOW B1
+          GET TO THE CHOPPER selection
+            HERE IS MY INVITATION @I LIED
+          ENOUGH TALK
+        YOU HAVE NO RESPECT FOR LOGIC
+      BULLSHIT
+        GET TO THE CHOPPER tmp
+          HERE IS MY INVITATION selection
+          LET OFF SOME STEAM BENNET 5
+        ENOUGH TALK
+      YOU HAVE NO RESPECT FOR LOGIC
+    BULLSHIT
+      GET TO THE CHOPPER tmp
+        HERE IS MY INVITATION selection
+        LET OFF SOME STEAM BENNET 2
+      ENOUGH TALK
+      BECAUSE I'M GOING TO SAY PLEASE tmp
+        GET TO THE CHOPPER tmp
+          HERE IS MY INVITATION selection
+          LET OFF SOME STEAM BENNET 3
+        ENOUGH TALK
+        BECAUSE I'M GOING TO SAY PLEASE tmp
+          DO IT NOW cls
+          TALK TO THE HAND "A basic kitchen."
+        BULLSHIT
+          DO IT NOW cls
+          TALK TO THE HAND "The entry way from which you came in."
+        YOU HAVE NO RESPECT FOR LOGIC
+      BULLSHIT
+        GET TO THE CHOPPER tmp
+          HERE IS MY INVITATION selection
+          LET OFF SOME STEAM BENNET 1
+        ENOUGH TALK
+        BECAUSE I'M GOING TO SAY PLEASE tmp
+          DO IT NOW cls
+          TALK TO THE HAND "A room with several comfortable chairs."
+        BULLSHIT
+          DO IT NOW cls
+          TALK TO THE HAND "A large table with many chairs surrounding it. Probably"
+          TALK TO THE HAND " a dining table."
+        YOU HAVE NO RESPECT FOR LOGIC
+      YOU HAVE NO RESPECT FOR LOGIC
+    YOU HAVE NO RESPECT FOR LOGIC
+  CHILL
+HASTA LA VISTA, BABY
+
+LISTEN TO ME VERY CAREFULLY printB0
+  DO IT NOW cls
+  TALK TO THE HAND "You enter a quaint home."
+HASTA LA VISTA, BABY
+
+
+
+LISTEN TO ME VERY CAREFULLY B1
+  DO IT NOW printB1
+  HEY CHRISTMAS TREE tmp
+    YOU SET US UP 0
+  HEY CHRISTMAS TREE selection
+    YOU SET US UP @NO PROBLEMO
+  STICK AROUND selection
+    GET YOUR ASS TO MARS selection
+      DO IT NOW printOptions @NO PROBLEMO @NO PROBLEMO @I LIED @NO PROBLEMO
+    GET TO THE CHOPPER tmp
+      HERE IS MY INVITATION selection
+      LET OFF SOME STEAM BENNET 4
+    ENOUGH TALK
+    BECAUSE I'M GOING TO SAY PLEASE tmp
+      GET TO THE CHOPPER tmp
+        HERE IS MY INVITATION selection
+        LET OFF SOME STEAM BENNET 6
+      ENOUGH TALK
+      BECAUSE I'M GOING TO SAY PLEASE tmp
+        GET TO THE CHOPPER tmp
+          HERE IS MY INVITATION selection
+          LET OFF SOME STEAM BENNET 7
+        ENOUGH TALK
+        BECAUSE I'M GOING TO SAY PLEASE tmp
+          DO IT NOW B0
+          GET TO THE CHOPPER selection
+            HERE IS MY INVITATION @I LIED
+          ENOUGH TALK
         YOU HAVE NO RESPECT FOR LOGIC
       BULLSHIT
         GET TO THE CHOPPER tmp
@@ -271,9 +357,15 @@ LISTEN TO ME VERY CAREFULLY B1
           LET OFF SOME STEAM BENNET 5
         ENOUGH TALK
         BECAUSE I'M GOING TO SAY PLEASE tmp
-          TALK TO THE HAND "Move back"
+          DO IT NOW A1
+          GET TO THE CHOPPER selection
+            HERE IS MY INVITATION @I LIED
+          ENOUGH TALK
         BULLSHIT
-          TALK TO THE HAND "Move forward"
+          DO IT NOW C1
+          GET TO THE CHOPPER selection
+            HERE IS MY INVITATION @I LIED
+          ENOUGH TALK
         YOU HAVE NO RESPECT FOR LOGIC
       YOU HAVE NO RESPECT FOR LOGIC
     BULLSHIT
@@ -313,20 +405,21 @@ HASTA LA VISTA, BABY
 
 LISTEN TO ME VERY CAREFULLY printB1
   DO IT NOW cls
-  TALK TO THE HAND "SECTION B1"
+  TALK TO THE HAND "Your first steps into town echo back, as if calling you further"
+  TALK TO THE HAND "into the town."
 HASTA LA VISTA, BABY
 
 
 
-LISTEN TO ME VERY CAREFULLY AreaTemplate
-  DO IT NOW printAreaTemplate
+LISTEN TO ME VERY CAREFULLY C1
+  DO IT NOW printC1
   HEY CHRISTMAS TREE tmp
     YOU SET US UP 0
   HEY CHRISTMAS TREE selection
-    YOU SET US UP 0
-  GET YOUR ASS TO MARS selection
-    DO IT NOW printOptions @NO PROBLEMO @I LIED @I LIED @NO PROBLEMO
+    YOU SET US UP @NO PROBLEMO
   STICK AROUND selection
+    GET YOUR ASS TO MARS selection
+      DO IT NOW printOptions @NO PROBLEMO @NO PROBLEMO @NO PROBLEMO @I LIED
     GET TO THE CHOPPER tmp
       HERE IS MY INVITATION selection
       LET OFF SOME STEAM BENNET 4
@@ -342,9 +435,8 @@ LISTEN TO ME VERY CAREFULLY AreaTemplate
           LET OFF SOME STEAM BENNET 7
         ENOUGH TALK
         BECAUSE I'M GOING TO SAY PLEASE tmp
-          TALK TO THE HAND "Move right"
         BULLSHIT
-          TALK TO THE HAND "Move left"
+          TALK TO THE HAND "Move west"
         YOU HAVE NO RESPECT FOR LOGIC
       BULLSHIT
         GET TO THE CHOPPER tmp
@@ -352,9 +444,9 @@ LISTEN TO ME VERY CAREFULLY AreaTemplate
           LET OFF SOME STEAM BENNET 5
         ENOUGH TALK
         BECAUSE I'M GOING TO SAY PLEASE tmp
-          TALK TO THE HAND "Move back"
+          DO IT NO B1
         BULLSHIT
-          TALK TO THE HAND "Move forward"
+          TALK TO THE HAND "Move north"
         YOU HAVE NO RESPECT FOR LOGIC
       YOU HAVE NO RESPECT FOR LOGIC
     BULLSHIT
@@ -369,10 +461,10 @@ LISTEN TO ME VERY CAREFULLY AreaTemplate
         ENOUGH TALK
         BECAUSE I'M GOING TO SAY PLEASE tmp
           DO IT NOW cls
-          TALK TO THE HAND "Look right."
+          TALK TO THE HAND "Look east."
         BULLSHIT
           DO IT NOW cls
-          TALK TO THE HAND "Look left."
+          TALK TO THE HAND "Look west."
         YOU HAVE NO RESPECT FOR LOGIC
       BULLSHIT
         GET TO THE CHOPPER tmp
@@ -381,10 +473,90 @@ LISTEN TO ME VERY CAREFULLY AreaTemplate
         ENOUGH TALK
         BECAUSE I'M GOING TO SAY PLEASE tmp
           DO IT NOW cls
-          TALK TO THE HAND "Look back."
+          TALK TO THE HAND "Look south."
         BULLSHIT
           DO IT NOW cls
-          TALK TO THE HAND "Look forward."
+          TALK TO THE HAND "Look north."
+        YOU HAVE NO RESPECT FOR LOGIC
+      YOU HAVE NO RESPECT FOR LOGIC
+    YOU HAVE NO RESPECT FOR LOGIC
+  CHILL
+HASTA LA VISTA, BABY
+
+LISTEN TO ME VERY CAREFULLY printC1
+  DO IT NOW cls
+  TALK TO THE HAND "You're now standing at a T-section."
+HASTA LA VISTA, BABY
+
+
+
+LISTEN TO ME VERY CAREFULLY AreaTemplate
+  DO IT NOW printAreaTemplate
+  HEY CHRISTMAS TREE tmp
+    YOU SET US UP 0
+  HEY CHRISTMAS TREE selection
+    YOU SET US UP @NO PROBLEMO
+  STICK AROUND selection
+    GET YOUR ASS TO MARS selection
+      DO IT NOW printOptions @NO PROBLEMO @I LIED @I LIED @NO PROBLEMO
+    GET TO THE CHOPPER tmp
+      HERE IS MY INVITATION selection
+      LET OFF SOME STEAM BENNET 4
+    ENOUGH TALK
+    BECAUSE I'M GOING TO SAY PLEASE tmp
+      GET TO THE CHOPPER tmp
+        HERE IS MY INVITATION selection
+        LET OFF SOME STEAM BENNET 6
+      ENOUGH TALK
+      BECAUSE I'M GOING TO SAY PLEASE tmp
+        GET TO THE CHOPPER tmp
+          HERE IS MY INVITATION selection
+          LET OFF SOME STEAM BENNET 7
+        ENOUGH TALK
+        BECAUSE I'M GOING TO SAY PLEASE tmp
+          TALK TO THE HAND "Move east"
+        BULLSHIT
+          TALK TO THE HAND "Move west"
+        YOU HAVE NO RESPECT FOR LOGIC
+      BULLSHIT
+        GET TO THE CHOPPER tmp
+          HERE IS MY INVITATION selection
+          LET OFF SOME STEAM BENNET 5
+        ENOUGH TALK
+        BECAUSE I'M GOING TO SAY PLEASE tmp
+          TALK TO THE HAND "Move south"
+        BULLSHIT
+          TALK TO THE HAND "Move north"
+        YOU HAVE NO RESPECT FOR LOGIC
+      YOU HAVE NO RESPECT FOR LOGIC
+    BULLSHIT
+      GET TO THE CHOPPER tmp
+        HERE IS MY INVITATION selection
+        LET OFF SOME STEAM BENNET 2
+      ENOUGH TALK
+      BECAUSE I'M GOING TO SAY PLEASE tmp
+        GET TO THE CHOPPER tmp
+          HERE IS MY INVITATION selection
+          LET OFF SOME STEAM BENNET 3
+        ENOUGH TALK
+        BECAUSE I'M GOING TO SAY PLEASE tmp
+          DO IT NOW cls
+          TALK TO THE HAND "Look east."
+        BULLSHIT
+          DO IT NOW cls
+          TALK TO THE HAND "Look west."
+        YOU HAVE NO RESPECT FOR LOGIC
+      BULLSHIT
+        GET TO THE CHOPPER tmp
+          HERE IS MY INVITATION selection
+          LET OFF SOME STEAM BENNET 1
+        ENOUGH TALK
+        BECAUSE I'M GOING TO SAY PLEASE tmp
+          DO IT NOW cls
+          TALK TO THE HAND "Look south."
+        BULLSHIT
+          DO IT NOW cls
+          TALK TO THE HAND "Look north."
         YOU HAVE NO RESPECT FOR LOGIC
       YOU HAVE NO RESPECT FOR LOGIC
     YOU HAVE NO RESPECT FOR LOGIC
